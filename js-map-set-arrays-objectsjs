@@ -1,0 +1,49 @@
+// maps
+const ht = new Map();
+ht.set("spain", 110);
+ht.set("niaps", 1110);
+ht.set("Canada", 300);
+ht.set("France", 100);
+ht.set("Spain", 110);
+
+console.table(ht)
+console.table(ht.get("niaps"))
+// iterate over keys (vegetables)
+ht.forEach((key,value,map)=>{
+  console.log(key)
+})
+// sets
+const st = new Set();
+st.add({"spain": 110});
+st.add({"niaps": 1110});
+st.add({"Canada": 300});
+st.add({"France": 100});
+st.add({"Spain": 110});
+
+console.table(st)
+st.forEach((v,va,sett)=>{
+  console.log(v)
+})
+// Array
+let arr = new Array();
+arr["spain"] = 110;
+arr["niaps"] = 1110;
+arr["Canada"] = 300;
+arr["France"] = 100;
+arr["Spain"] = 110;
+Object.keys(arr).forEach((v,i,aaa)=>{
+  console.log(v+" "+i)
+})
+console.log(arr.niaps)
+// Object
+// Array
+let obj = new Object();
+obj.spain = 110;
+obj.niaps = 1110;
+obj.Canada = 300;
+obj.France = 100;
+obj.Spain = 110;
+Object.keys(obj).forEach((v,i,aaa)=>{
+  console.log(v+" "+i)
+})
+console.log(obj)
